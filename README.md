@@ -1,31 +1,24 @@
+## RubiksCubeSolver
+This program represents a (3X3) Rubiks Cube using 3 different models and incorporates various Algorithms to solve any valid cube.
 
-# RubiksCubeSolver
-This repository contains a C++ program that models a virtual Rubik's Cube (3x3) and provides solutions using various algorithms.
-# Prerequisites
-1) C++ compiler compatible with C++11 or above.
-2) Preferably use CLION environment for better experience.
+## Features
+- Represent Cube in 3 different models, bitboard being the fastest!
+- Shuffle the cube as many times as you want using a shuffle cube function, takes input the number of times you want to shuffle.
+- Choose an Algorithm from BFS, DFS, IDDFS, IDA* to solve.
+- In output recieve the steps to solve the cube, which you can try on a physical cube too!
 
-# How to run the project 
-Clone The Project 
+## Run Locally
 
-```bash
-  git clone https://link-to-project
-```
-
-Go to the project directory
+Clone the project
 
 ```bash
-  cd my-project
+  git clone https://github.com/aryangoenka26/RubiksCubeSolver
 ```
-Run the the main.cpp file
-# Features
-1. Modeled a virtual Rubik's Cube using standard data structures like unordered_map in C++
-2. Implemented three different models/classes using object-oriented programming concepts (inheritance, function overloading, etc.) for 
-   code reusability
-3. Achieved solving time of under 3 seconds for a Rubik's Cube jumbled 8 times using BFS, DFS, and IDDFS algorithms
-4. Developed a corner pattern database to store move counts required to solve the cube
-5. Optimized the corner pattern database using a Nibble Array, reducing memory usage by 50%
-6. Implemented Korf's IDA* Algorithm, achieving solving time of under 10 seconds for a Rubik's Cube jumbled 13 times
+
+Start the server
+
+- Go to main.cpp.
+- Play around with different functions to understand how code is working.
+- Some code for each solver is already there which was used for testing.
 
 
-Feel free to modify and customize this template according to your project's specific requirements. Include any additional sections that you think are relevant to your project. Good luck with your Rubik's Cube Solver!
